@@ -1,0 +1,38 @@
+body, html {
+    height: 100vh;
+}
+
+.body-container-bg-blue{
+    background-color: aqua;
+}
+.body-container-bg-grey{
+    background-color: white;
+}
+.body-container-bg-announcement{
+    background-color: rgb(40, 99, 99);
+}
+.max-viewport-height{
+    height: 100vh;
+}
+.full-height{
+    height: 92%;
+}
+.rounded-div-br{
+    border: 1px solid rgba(100, 97, 97, 0.342);
+    border-radius: 10px;
+}
+.custom-card-size{
+    padding: 1rem !important;
+    max-width: 10rem !important;
+}
+.card-bg{
+    box-shadow: 0;
+    transition: 0.3s;
+}
+.card-bg:hover{
+    box-shadow: 5px 5px #8a858571;
+}
+.inner-container-border{
+    border: 1px solid black;
+    border-radius: 1.2rem;
+}
